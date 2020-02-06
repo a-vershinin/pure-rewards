@@ -1,0 +1,15 @@
+.header {
+  flex: 0 0 auto;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  width: 100%;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+  padding: 30px;
+}

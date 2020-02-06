@@ -1,0 +1,35 @@
+.rewards {
+  color: inherit;
+}
+
+.table {
+  color: inherit;
+  border-top: 0;
+
+  .th {
+    text-align: center;
+    border-bottom-width: 0;
+    border: none;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .td {
+    text-align: center;
+    &:last-child {
+      cursor: pointer;
+    }
+  }
+}
+
+.col1 {
+  width: 64px;
+}
+.col2 {
+  width: 100px;
+}
+.active {
+  background-color: #e1eef5;
+}

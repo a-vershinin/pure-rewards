@@ -1,0 +1,12 @@
+{
+  "extends": "react-app",
+  "plugins": ["react-hooks"],
+  "parserOptions": {
+    "ecmaVersion": 2019,
+    "sourceType": "module"
+  },
+  "rules": {
+    "react-hooks/rules-of-hooks": "error", // Проверяем правила хуков
+    "react-hooks/exhaustive-deps": "warn" // Проверяем зависимости эффекта
+  }
+}
